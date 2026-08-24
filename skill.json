@@ -1,0 +1,38 @@
+{
+  "name": "genpark-sustainable-algae-plant-pet-nutrition-calculator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Sustainable algae and plant-based pet nutrition formulator calculating carbon savings, water preservation, and hypoallergenic canine diets.",
+  "author": "genpark",
+  "category": "sustainability",
+  "tags": [
+    "sustainable-pet-food",
+    "plant-based-pet",
+    "microalgae-protein",
+    "hypoallergenic-diet",
+    "omni-pet"
+  ],
+  "inputs": {
+    "dog_weight_kg": {
+      "type": "number"
+    },
+    "digestive_sensitivity": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "diet_plan_id": {
+      "type": "string"
+    },
+    "digestibility_score_pct": {
+      "type": "number"
+    },
+    "carbon_footprint_reduction_vs_beef_pct": {
+      "type": "number"
+    },
+    "hypoallergenic_certification": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
